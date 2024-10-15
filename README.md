@@ -1,0 +1,1 @@
+This repository contains directory and folders for my frontend development project
