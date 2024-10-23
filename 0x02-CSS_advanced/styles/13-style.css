@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 /*
  styling on the anchor tag
 */
-a[href] {
+a {
     color: #161616;
     text-decoration: none;
 }
@@ -33,9 +33,11 @@ a[href] {
 a[href]:visited {
     font-style: italic;
 }
+
 a[href]:hover {
     text-decoration: underline;
 }
+
 a[href]:active {
     background-color: var(--color-light-grey);
 }
