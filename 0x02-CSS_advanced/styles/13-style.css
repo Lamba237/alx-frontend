@@ -22,9 +22,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 
 }
+
 /*
  styling on the anchor tag
 */
+ a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
 a[href] {
     color: #161616;
     text-decoration: none;
