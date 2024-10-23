@@ -1,0 +1,51 @@
+/*
+ scrolling should be smooth as possible
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*
+ setting foreground color for body and anchor tags
+*/
+body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+a {
+    color: #161616;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: var(--color-primary);
+}
+
+.section-tagline {
+    color: var(--color-primary);
+}
+
+:root {
+    /*
+     custom color properties
+    */
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+
+    /*
+     typographic styles
+     */
+     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
