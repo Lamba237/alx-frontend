@@ -1,5 +1,9 @@
-* {
-    box-sizing: border-box;
+/*
+ Universal boxing rule
+*/
+
+*, *::before, ::after {
+    box-sizing: inherit;
 }
 
 /*
