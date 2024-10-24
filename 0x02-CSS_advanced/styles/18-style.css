@@ -99,7 +99,7 @@ a:active {
 /*
  Nav classes
 */
-nav .navbar-menu {
+.navbar-menu {
   float: right;
 }
 
