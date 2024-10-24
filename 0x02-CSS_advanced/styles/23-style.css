@@ -184,7 +184,9 @@ ul.row {
     display: block;
 }
 
-.social-link 
+.social-link svg {
+    fill: var(--text-color);
+}
 
 /*
   root element use for defining custom properties
