@@ -460,7 +460,7 @@ a:active {
 
 /* section hero */
 .section-hero {
-    background-size: 100% auto;
+    position: relative;
     width: 90rem;
     height: auto;
 }
